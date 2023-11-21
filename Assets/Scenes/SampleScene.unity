@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1299804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,13 +225,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: QRTest2
+  mTrackableName: escudofi_negro
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/cuaderno.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/practica8.xml
+  mAspectRatio: 1.18429
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.18429
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -266,8 +266,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1299805}
   mHiddenRoot: {fileID: 0}
-  mTargetName: QRTest2
-  mDatasetName: Vuforia/cuaderno.xml
+  mTargetName: escudofi_negro
+  mDatasetName: Vuforia/practica8.xml
   mCastedBehaviour: {fileID: 1299805}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -543,7 +543,7 @@ MonoBehaviour:
   m_Script: {fileID: -1826476478, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mWorldCenterMode: 2
+  mWorldCenterMode: 1
   mWorldCenter: {fileID: 0}
 --- !u!81 &397051139
 AudioListener:
@@ -637,7 +637,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &790209429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -659,6 +659,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 183888345}
+        m_TargetAssemblyTypeName: ActivatePlane, Assembly-CSharp
+        m_MethodName: SetBuilder
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

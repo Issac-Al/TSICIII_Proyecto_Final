@@ -9,7 +9,11 @@ public class ActivatePlane : MonoBehaviour
     public GameObject planeFinder;
     public void SetWorld(int target)
     {
-        builders[target].SetActive(true);
         planeFinder.SetActive(true);
+    }
+
+    public void SetBuilder()
+    {
+        builders[0].SetActive(true);
     }
 }

@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
-using UnityEditor.Purchasing;
 using UnityEngine;
 
 public class BasicEnemy : MonoBehaviour
@@ -16,6 +15,7 @@ public class BasicEnemy : MonoBehaviour
     public float stoppingDistance;
     private GameObject player;
     public List<Collider> weaponCollider;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -91,6 +91,11 @@ public class BasicEnemy : MonoBehaviour
         {
             weapon.enabled = false;
         }
+    }
+
+    public void DestroyEnemy()
+    {
+        Destroy(gameObject);
     }
 
 }

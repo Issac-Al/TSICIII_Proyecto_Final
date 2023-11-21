@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2269225904270074516}
   - component: {fileID: 7685641266726531063}
   - component: {fileID: 1983131516356595413}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,8 +94,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1313923416147999379}
-  - component: {fileID: 1980164656592509691}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,37 +122,6 @@ Transform:
   - {fileID: 5961872769541216555}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1980164656592509691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 333504039174427263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AgentTypeID: 0
-  m_CollectObjects: 0
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: 2, z: 0}
-  m_LayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_UseGeometry: 0
-  m_DefaultArea: 0
-  m_GenerateLinks: 0
-  m_IgnoreNavMeshAgent: 1
-  m_IgnoreNavMeshObstacle: 1
-  m_OverrideTileSize: 0
-  m_TileSize: 256
-  m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
-  m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: cb28659c594181e4eadb33963ad44e40, type: 2}
-  m_BuildHeightMesh: 0
 --- !u!1 &1605979594014566643
 GameObject:
   m_ObjectHideFlags: 0
@@ -166,7 +134,7 @@ GameObject:
   - component: {fileID: 7265218351102552359}
   - component: {fileID: 3102753172266262861}
   - component: {fileID: 7782798027540352382}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pillar_A (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -273,7 +241,7 @@ GameObject:
   - component: {fileID: 7551437948051173922}
   - component: {fileID: 3063515016427951092}
   - component: {fileID: 3112539284347530678}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pillar_A (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -380,7 +348,7 @@ GameObject:
   - component: {fileID: 288569628789798957}
   - component: {fileID: 2235618049061382646}
   - component: {fileID: 7091834620367725231}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -485,7 +453,7 @@ GameObject:
   - component: {fileID: 8615350051556906423}
   - component: {fileID: 4352359846547109208}
   - component: {fileID: 7509950549019195067}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -570,7 +538,7 @@ GameObject:
   - component: {fileID: 6963535325598007164}
   - component: {fileID: 1375179696052470601}
   - component: {fileID: 7804843606271876843}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -656,7 +624,7 @@ GameObject:
   - component: {fileID: 2626405528322596922}
   - component: {fileID: 821020415554745454}
   - component: {fileID: 8630768510944095801}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pillar_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -762,7 +730,7 @@ GameObject:
   - component: {fileID: 621117313786535399}
   - component: {fileID: 1740972627484914158}
   - component: {fileID: 2917948986267189005}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -848,7 +816,7 @@ GameObject:
   - component: {fileID: 3575918457828979572}
   - component: {fileID: 6876529547521686060}
   - component: {fileID: 2035225018776343721}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pillar_A (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -994,6 +962,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd97cf37103bd004898ab92760e82f5a, type: 3}
       propertyPath: m_Name
       value: statue1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd97cf37103bd004898ab92760e82f5a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dd97cf37103bd004898ab92760e82f5a, type: 3}
       propertyPath: m_StaticEditorFlags
